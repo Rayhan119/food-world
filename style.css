@@ -85,3 +85,34 @@ span{
    padding: 20px 0;
 }
 /*header-content ends*/
+/*about area starts*/
+.about-area{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.padding{
+    padding-top: 50px;
+}
+.about-area-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about-area-img img{
+    width: 100%;
+}
+.about-area-content h1{
+    color:#696262c4;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-area-content p{
+    line-height: 1.5em;
+    word-spacing: 1px;
+    margin-bottom: 40px;
+}
+/*about area ends*/
