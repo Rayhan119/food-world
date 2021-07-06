@@ -170,3 +170,75 @@ span{
      color: maroon;
  }
 /*recipies area ends*/
+/*follower area starts*/
+.follower-area{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:10px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #a39f9fea;
+    width:80%;
+    margin: auto;
+}
+.padding-follower-area{
+    padding: 150px 0;
+    text-align: center;
+}
+.follower-area h2{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.follower-area p{
+    color:maroon;
+    text-transform: capitalize;
+}
+/*follower area ends*/
+/*contact us area starts*/
+.contact-area{
+    text-align: center;
+    border:10px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #a39f9fea;
+    padding: 60px 0;
+    margin: 80px 0;
+}
+.contact-area h1{
+    text-transform: capitalize;
+    color: maroon;
+    padding: 10px 0;
+    font-weight: 700;
+}
+.contact-form{
+    margin:50px 0;
+}
+.contact-form input{
+   width: 20%;
+   border-bottom: 1px solid gray;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding: 10px 0;
+   margin: 10px 5px;
+}
+textarea{
+    display: block;
+    margin: auto;
+    width: 42%;
+    border-bottom: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 50px 0;
+}
+/*contact us area ends*/
+/*footer area starts*/
+.footer-area{
+    background: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding:10px 0;
+    text-transform: capitalize;
+}
+/*footer area ends*/
