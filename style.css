@@ -116,3 +116,57 @@ span{
     margin-bottom: 40px;
 }
 /*about area ends*/
+/*recipies area starts*/
+.recipies-content{
+    text-align: center;
+    padding: 60px 0;
+}
+.recipies-content h1{
+    color:#696262c4;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.recipies-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-img img{
+    width: 100%;
+}
+.second-img img{
+    width: 100%;
+}
+.third-img img{
+    width: 100%;
+}
+.first-img{
+   border:10px solid white;
+   border-radius: 8px;
+   box-shadow: 10px 10px 40px gray;
+   width: 31.33%;
+   margin: 0 1%;
+}
+.second-img{
+    border:10px solid white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 40px gray;
+    width: 31.33%;
+    margin: 0 1%;
+ }
+ .third-img{
+    border:10px solid white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 40px gray;
+    width: 31.33%;
+    margin: 0 1%;
+ }
+ .recipies-img-content{
+     font-size: 14px;
+     padding: 10px;
+ }.recipies-img h2{
+     color: maroon;
+ }
+/*recipies area ends*/
